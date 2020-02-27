@@ -1,0 +1,12 @@
+#side .curr_menu{
+    padding-top : 20px;
+    height: 50px;
+    text-align: center;
+    border-bottom: #ccc dotted 1px;
+}
+
+#side .sub_menu {
+    padding-top : 20px;
+    padding-left: 20px;
+    
+}
