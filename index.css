@@ -1,3 +1,62 @@
+img {
+    display: flex;
+    margin:auto;
+}
+header {  
+    width: 100%;
+    height: 60px;
+    color: white;
+    background: rgb(6, 25, 46);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #top_menu {
+      width: 300px;
+      margin-left:auto;
+      margin-right: 10px;
+  }
+
+  #top_menu .menu {
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+      padding:0px;
+      margin:0px;
+  }
+
+
 body {
-    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+}
+
+#upper_main {
+    height: 300px;
+    width: 100%;
+    background-color: snow;
+}
+
+#bottom {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#side {
+    width: 20%;
+    height: 100%;
+    background: rgb(255,255,255);
+    border-right: lightgray solid 1px;
+
+}
+
+#main {
+    width:80%;
+    height: 100%;
 }
