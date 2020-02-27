@@ -1,3 +1,11 @@
 #main {
-    
+    display: flex;
+    flex-direction: column;
 }
+
+#main #subject, #content{
+    width: 90%;
+    padding-top: 50px;
+    border-bottom: thin #eeeeee;
+}
+

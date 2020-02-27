@@ -1,4 +1,7 @@
 header {  
+    font-family: 'Oxanium' ;
+
+
     width: 100%;
     min-width: 1000px;
     height: 60px;
@@ -21,7 +24,7 @@ header {
     padding-top: 0px;
     margin-top: 15px;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
   #top_menu {
@@ -68,11 +71,7 @@ body {
 }
 
 #bottom {
-    /*
-    box-shadow:  
-        1em 10px 1em lightgray,
-        -1em 10px 1em lightgray;
-    */
+    font-family: 나눔명조;
     margin-top: 0px;
     width: 85%;
     min-width: 1000px;
@@ -84,6 +83,7 @@ body {
 }
 
 #side {
+    justify-content: center;
     width: 300px;
     height: 100%;
     background: rgb(255,255,255);
@@ -92,7 +92,6 @@ body {
 }
 
 #main {
-    font-family: 나눔명조;
     padding-left: 5px;
     width:100%;
     height: 100%;
