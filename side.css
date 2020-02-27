@@ -1,8 +1,14 @@
 #side .curr_menu{
-    padding-top : 20px;
     height: 50px;
-    text-align: center;
     border-bottom: #ccc dotted 1px;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+
+#side .curr_menu > h3 {
+    width: 100%;
+    text-align: center;
+    display: block;
 }
 
 #side .sub_menu {
