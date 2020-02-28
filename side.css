@@ -1,18 +1,42 @@
-#side .curr_menu{
-    height: 50px;
-    border-bottom: #ccc dotted 1px;
-    padding-bottom: 0%;
-    margin: 0%;
+#side {
+    padding-top: 10px;
+    width: 300px;
+    height: 100%;
+    background: rgb(255,255,255);
+    border-right: lightgray solid 1px;
+    padding-right: 5px;
 }
 
-#side .curr_menu > h3 {
-    width: 100%;
-    text-align: center;
-    display: block;
+#side .curr_menu{
+    font-size: 30px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
 }
 
 #side .sub_menu {
-    padding-top : 20px;
-    padding-left: 20px;
+    font-size: 18px;
+    display: none;
     
 }
+
+#side .curr_menu:hover .sub_menu{
+    display: block;
+}
+
+#side .sub_menu ul{
+    padding: 0;
+}
+
+#side .sub_menu li {
+    border-top: #ccc dotted 1px;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#side .sub_menu li:last-of-type {
+    border-bottom: #ccc solid 1px;
+}
+
