@@ -35,6 +35,8 @@ header {
     margin-top: 15px;
     vertical-align: middle;
     margin-right: 20px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
   #top_menu {
