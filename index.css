@@ -2,6 +2,15 @@ html {
     font-family: 'Oxanium', 'Noto Sans KR' ;
 }
 
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+header a, header a:visited, header a:hover {
+    color: white;
+
+}
+
 header {  
     font-weight: 600;
     width: 100%;

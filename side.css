@@ -7,6 +7,10 @@
     padding-right: 5px;
 }
 
+#side a, #side a:visited, #side a:hover {
+    color:#000;
+}
+
 #side .curr_menu{
     font-size: 30px;
     margin-top: 40px;
